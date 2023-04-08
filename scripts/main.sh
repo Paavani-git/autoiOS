@@ -43,8 +43,6 @@ do
 
     touch Podfile
     echo $new_file > Podfile
-
-    read $as
     pod install
     
     echo "-> Pod installation done"
